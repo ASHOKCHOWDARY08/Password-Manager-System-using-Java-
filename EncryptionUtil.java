@@ -3,7 +3,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
 public class EncryptionUtil {
-    private static final String KEY = "1234567890123456"; // 16-char AES key
+    private static final String KEY = "1234567890123456";
 
     public static String encrypt(String strToEncrypt) {
         try {
