@@ -24,7 +24,7 @@ public class PasswordStorage {
                 }
             }
         } catch (IOException e) {
-            // File might not exist yet, that's okay
+          
         }
         return entries;
     }
