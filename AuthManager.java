@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.security.MessageDigest;
 
 public class AuthManager {
-    private final String MASTER_PASSWORD_HASH = "e3afed0047b08059d0fada10f400c1e5"; // hash for 'password'
+    private final String MASTER_PASSWORD_HASH = "e3afed0047b08059d0fada10f400c1e5"; 
 
     public void showLoginScreen() {
         JFrame frame = new JFrame("Login");
