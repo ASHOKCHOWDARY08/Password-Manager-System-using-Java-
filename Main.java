@@ -122,7 +122,7 @@ public class Main {
     }
 
     private static void updateTable(List<PasswordEntry> data) {
-        tableModel.setRowCount(0); // Clear table
+        tableModel.setRowCount(0); 
         for (PasswordEntry entry : data) {
             tableModel.addRow(new Object[]{entry.getName(), entry.getPassword()});
         }
